@@ -64,7 +64,7 @@ $arvore->inserir($no1, $Boromir->codigo_personagem);
                                         if ($SN == 1):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Boromir->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Boromir->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         elseif ($SN == 0):
                                             echo "<h2>" . $Read->getPergunta(2) . "</h2>";
                                             $Read->InputOpcao($Cont);
@@ -74,7 +74,7 @@ $arvore->inserir($no1, $Boromir->codigo_personagem);
                                         if ($SN == 1):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Gimli->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Gimli->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         elseif ($SN == 0):
                                             echo "<h2>" . $Read->getPergunta(3) . "</h2>";
                                             $Read->InputOpcao($Cont);
@@ -84,18 +84,18 @@ $arvore->inserir($no1, $Boromir->codigo_personagem);
                                         if ($SN == 1):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Aragorn->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Aragorn->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         elseif ($SN == 0):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Legolas->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Legolas->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         endif;
                                         break;
                                     case 5:
                                         if ($SN == 1):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Gandalf->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Gandalf->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         elseif ($SN == 0):
                                             echo "<h2>" . $Read->getPergunta(5) . "</h2>";
                                             $Read->InputOpcao($Cont);
@@ -108,18 +108,18 @@ $arvore->inserir($no1, $Boromir->codigo_personagem);
                                         elseif ($SN == 0):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Frodo->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Frodo->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         endif;
                                         break;
                                     case 7:
                                         if ($SN == 1):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Sam->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Sam->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         elseif ($SN == 0):
                                             echo "<h2 class='actived'>O personagem que você pensou é o {$Merry->nome_personagem}</h2>";
                                             echo "<img class='image_actived' src='{$Merry->imagem_personagem}' />";
-                                            echo "<a href='http://localhost/akinator_senhor_aneis'>Reiniciar</a>";
+                                            echo "<a onclick='location.reload()' href='#'>Reiniciar</a>";
                                         endif;
                                         break;
                                     default:
