@@ -10,41 +10,29 @@ $Read = new question();
 
 $Gandalf = new Person(14, "Gandalf", "./img/gandalf.jpg");
 $arvore->inserir($no1, $Gandalf->codigo_personagem);
-
 $Gimli = new Person(28, "Gimli", "./img/gimli.jpg");
 $arvore->inserir($no1, $Gimli->codigo_personagem);
-
 $Frodo = new Person(11, "Frodo", "./img/frodo.jpg");
 $arvore->inserir($no1, $Frodo->codigo_personagem);
-
 $Sam = new Person(18, "Sam", "./img/sam.jpg");
 $arvore->inserir($no1, $Sam->codigo_personagem);
-
 $Aragorn = new Person(25, "Aragorn", "./img/aragorn.jpg");
 $arvore->inserir($no1, $Aragorn->codigo_personagem);
-
 $Legolas = new Person(32, "Legolas", "./img/legolas.jpg");
 $arvore->inserir($no1, $Legolas->codigo_personagem);
-
 $Merry = new Person(5, "Merry & Pippin", "./img/merry.jpg");
 $arvore->inserir($no1, $Merry->codigo_personagem);
-
 $Boromir = new Person(37, "Boromir", "./img/boromir.jpg");
 $arvore->inserir($no1, $Boromir->codigo_personagem);
-
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
         <title>Akinator - Senhor dos Anéis (Árvore Binária)</title>
         <link href="css/style.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500i,700" rel="stylesheet">
     </head>
-
     <body>
         <section class="box_content">
             <div class="float">
