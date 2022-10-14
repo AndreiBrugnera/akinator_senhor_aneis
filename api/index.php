@@ -8,21 +8,21 @@ $no1 = New No(21);
 $arvore = New Arvore();
 $Read = new question();
 
-$Gandalf = new Person(14, "Gandalf", "https://quiz-senhor-aneis.vercel.app/img/gandalf.jpg");
+$Gandalf = new Person(14, "Gandalf", "https://quiz-senhor-aneis.vercel.app/img/GANDALF.jpg");
 $arvore->inserir($no1, $Gandalf->codigo_personagem);
-$Gimli = new Person(28, "Gimli", "https://quiz-senhor-aneis.vercel.app/img/gimli.jpg");
+$Gimli = new Person(28, "Gimli", "https://quiz-senhor-aneis.vercel.app/img/GIMLI.jpg");
 $arvore->inserir($no1, $Gimli->codigo_personagem);
-$Frodo = new Person(11, "Frodo", "https://quiz-senhor-aneis.vercel.app/img/frodo.jpg");
+$Frodo = new Person(11, "Frodo", "https://quiz-senhor-aneis.vercel.app/img/FRODO.jpg");
 $arvore->inserir($no1, $Frodo->codigo_personagem);
-$Sam = new Person(18, "Sam", "https://quiz-senhor-aneis.vercel.app/img/sam.jpg");
+$Sam = new Person(18, "Sam", "https://quiz-senhor-aneis.vercel.app/img/SAM.jpg");
 $arvore->inserir($no1, $Sam->codigo_personagem);
-$Aragorn = new Person(25, "Aragorn", "https://quiz-senhor-aneis.vercel.app/img/aragorn.jpg");
+$Aragorn = new Person(25, "Aragorn", "https://quiz-senhor-aneis.vercel.app/img/ARAGORN.jpg");
 $arvore->inserir($no1, $Aragorn->codigo_personagem);
-$Legolas = new Person(32, "Legolas", "https://quiz-senhor-aneis.vercel.app/img/legolas.jpg");
+$Legolas = new Person(32, "Legolas", "https://quiz-senhor-aneis.vercel.app/img/LEGOLAS.jpg");
 $arvore->inserir($no1, $Legolas->codigo_personagem);
-$Merry = new Person(5, "Merry & Pippin", "https://quiz-senhor-aneis.vercel.app/img/merry.jpg");
+$Merry = new Person(5, "Merry & Pippin", "https://quiz-senhor-aneis.vercel.app/img/MERRY.jpg");
 $arvore->inserir($no1, $Merry->codigo_personagem);
-$Boromir = new Person(37, "Boromir", "https://quiz-senhor-aneis.vercel.app/img/boromir.jpg");
+$Boromir = new Person(37, "Boromir", "https://quiz-senhor-aneis.vercel.app/img/BOROMIR.jpg");
 $arvore->inserir($no1, $Boromir->codigo_personagem);
 ?>
 <!DOCTYPE html>
