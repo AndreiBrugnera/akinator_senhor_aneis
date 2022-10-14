@@ -1,28 +1,28 @@
 <?php
-include 'class/arvore.class.php';
-include 'class/no.class.php';
-include 'class/person.class.php';
-include 'class/question.class.php';
+include 'arvore.class.php';
+include 'no.class.php';
+include 'person.class.php';
+include 'question.class.php';
 
 $no1 = New No(21);
 $arvore = New Arvore();
 $Read = new question();
 
-$Gandalf = new Person(14, "Gandalf", "./img/gandalf.jpg");
+$Gandalf = new Person(14, "Gandalf", "gandalf.jpg");
 $arvore->inserir($no1, $Gandalf->codigo_personagem);
-$Gimli = new Person(28, "Gimli", "./img/gimli.jpg");
+$Gimli = new Person(28, "Gimli", "gimli.jpg");
 $arvore->inserir($no1, $Gimli->codigo_personagem);
-$Frodo = new Person(11, "Frodo", "./img/frodo.jpg");
+$Frodo = new Person(11, "Frodo", "frodo.jpg");
 $arvore->inserir($no1, $Frodo->codigo_personagem);
-$Sam = new Person(18, "Sam", "./img/sam.jpg");
+$Sam = new Person(18, "Sam", "sam.jpg");
 $arvore->inserir($no1, $Sam->codigo_personagem);
-$Aragorn = new Person(25, "Aragorn", "./img/aragorn.jpg");
+$Aragorn = new Person(25, "Aragorn", "aragorn.jpg");
 $arvore->inserir($no1, $Aragorn->codigo_personagem);
-$Legolas = new Person(32, "Legolas", "./img/legolas.jpg");
+$Legolas = new Person(32, "Legolas", "legolas.jpg");
 $arvore->inserir($no1, $Legolas->codigo_personagem);
-$Merry = new Person(5, "Merry & Pippin", "./img/merry.jpg");
+$Merry = new Person(5, "Merry & Pippin", "merry.jpg");
 $arvore->inserir($no1, $Merry->codigo_personagem);
-$Boromir = new Person(37, "Boromir", "./img/boromir.jpg");
+$Boromir = new Person(37, "Boromir", "boromir.jpg");
 $arvore->inserir($no1, $Boromir->codigo_personagem);
 ?>
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ $arvore->inserir($no1, $Boromir->codigo_personagem);
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
         <title>Akinator - Senhor dos Anéis (Árvore Binária)</title>
-        <link href="css/style.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
     </head>
     <body>
         <section class="box_content">
